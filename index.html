@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Crystal Collector - d fisher</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<div class="jumbotron">
+    <h1 class=".display3 lg text-center"> Crystal Collector</h1>
+    
+	<h2 class=".display4 lg text-center">You will be given a random number at the start of the game. 
+        There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. 
+        You win the game by matching your total score to random number, you lose the game if your total score goes aboce the random number. 
+        The value of each crystal is hidden from you until you click on it.
+        Each time when the game starts, the game will change the values of each crytal.</h2>
+
+    
+		<div id="game">
+
+			<span><p id="wins">Wins: </p></span>
+            <span><p id="losses">Losses: </p></span>
+            <span><p id="yourScore">Your Score: </p></span>
+            <span><p id="winningNumber">Winning Score: </p></span>
+
+            
+        </div>
+        
+    <img id=diamond src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRMoMxBz6w60ouDv-zj8EYxmZFSG6lWJxx_FHvuMzJ1lrDBHDGy&usqp=CAU" height=100 width=100>
+    <img id=ruby src="https://miro.medium.com/max/600/0*7asj1rKS8d2mead_.png" height=100 width=100>
+    <img id=emorald src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTVHlAk7akDtZhZhC369zhjsdrBTvYl6LR4vX4BB6hBg5G-TPdw&usqp=CAU" height=100 width=100>
+    <img id=crystal src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ5QoEdR9zh3aQo7R1qHGiIaotebRE-PCE5qaci_QXOb7iE2F5f&usqp=CAU" height=100 width=100>
+
+</div>
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	
+</body>
+
+</html>
